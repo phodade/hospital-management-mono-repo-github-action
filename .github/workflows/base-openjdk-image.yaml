@@ -2,8 +2,7 @@ name: Base Image for Open jdk
 
 on: 
   push:
-    paths:
-      - dev-sec-ops/base-images/**
+    paths: "dev-sec-ops/base-images/**"
 
 jobs:
   build-open-jdk-images:
