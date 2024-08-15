@@ -4,6 +4,7 @@ on:
   push:
     paths: "dev-sec-opps/base-images/**"
 
+
 jobs:
   build-gitleaks-images:
     runs-on: ubuntu-latest
