@@ -60,4 +60,6 @@ jobs:
 
       - name: Push open-jdk image
         run: docker push ${{secrets.DOCKER_REGISTRY_USER}}/open-jdk:latest
+
+        
       
