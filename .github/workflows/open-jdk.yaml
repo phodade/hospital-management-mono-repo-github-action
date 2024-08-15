@@ -17,11 +17,11 @@ jobs:
       - name: Log in to Github Docker Registry
         uses: docker/login-action@v2
         with: 
-          username: ${{secrets.DOCKER_REGISTRY_USER }}
-          password: ${{secrets.DOCKER_REGISTRY_PASS }} 
+          username: ${{secrets.DOCKER_REGISTRY_USER }
+          password: ${{ secrets.DOCKER_REGISTRY_PAT}} 
 
       - name: Push open-jdk image
-        run: docker push ${{secrets.DOCKER_REGISTRY_USER }}/open-jdk:latest
+        run: docker push ${{secrets.DOCKER_REGISTRY_USER}}/open-jdk:latest
       
 
   
