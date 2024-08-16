@@ -40,7 +40,7 @@ jobs:
       - name: Build Docker Image for directory-service
         run: 
           docker build -t ${{ secrets.DOCKER_REGISTRY_USER}}/directory-service:latest -f dockerfile .
-        working-directory: hospital-management/directory-service-hospital
+        working-directory: hospital-management/directory-service
 
       - name: Push Docker Image for directory-service
         run: 
