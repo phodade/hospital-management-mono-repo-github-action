@@ -1,4 +1,4 @@
-name: directory-service:ci
+name: directory-service-ci
 
 on:
   push:
