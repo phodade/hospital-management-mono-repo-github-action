@@ -64,11 +64,11 @@ jobs:
         run: 
           docker push ${{secrets.DOCKER_REGISTRY_USER}}/patient-service:latest
 
-      - name: Rebuild Docker Image for appointment-service
+      - name: Build Docker Image for appointment-service
         run: 
           docker build -t ${{ secrets.DOCKER_REGISTRY_USER }}/appointment-service:latest -f dockerfile .
         working-directory: hospital-management/appointment-service
 
-      - name: Re-push Docker Image for appointment-service
+      - name: Push Docker Image for appointment-service
         run: 
           docker push ${{ secrets.DOCKER_REGISTRY_USER }}/appointment-service:latest
