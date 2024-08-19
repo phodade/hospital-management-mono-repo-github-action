@@ -27,3 +27,4 @@ jobs:
       - name: Push Docker Image for directory-service
         run: 
           docker push ${{secrets.DOCKER_REGISTRY_USER}}/directory-service:latest
+
