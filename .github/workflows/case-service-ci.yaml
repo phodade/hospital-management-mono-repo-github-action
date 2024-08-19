@@ -1,4 +1,4 @@
-name: case-service:ci
+name: case-service-ci
 
 on:
   push:
