@@ -28,4 +28,4 @@ jobs:
         run: 
           docker push ${{secrets.DOCKER_REGISTRY_USER }}/case-service:latest
 
-   
+
