@@ -1,4 +1,4 @@
-name: patient-service-ci
+name:  Build and Push Docker Images
 
 
 on:
