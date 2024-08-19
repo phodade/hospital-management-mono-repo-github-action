@@ -11,3 +11,5 @@ COPY . /app
 CMD ["java", "-jar","api-gateway.jar"]
 
 
+
+
