@@ -26,3 +26,4 @@ jobs:
       - name: Push Docker Image for appointment-service
         run: 
           docker push ${{ secrets.DOCKER_REGISTRY_USER }}/appointment-service:latest
+          
