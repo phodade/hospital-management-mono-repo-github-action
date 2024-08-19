@@ -1,4 +1,4 @@
-name: patient-service:ci
+name: patient-service-ci
 
 on:
   push:
