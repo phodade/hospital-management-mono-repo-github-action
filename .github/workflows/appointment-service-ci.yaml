@@ -1,4 +1,4 @@
-name: appointment-service:CI
+name: appointment-service:ci
 
 on:
   push:
