@@ -1,4 +1,4 @@
-name: api-gateway:CI
+name: api-gateway-ci
 
 on:
   push:
