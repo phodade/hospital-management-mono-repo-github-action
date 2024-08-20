@@ -22,7 +22,7 @@ jobs:
       - name: Build Docker Image for hospital-console
         run: 
           docker build -t ${{ secrets.DOCKER_REGISTRY_USER}}/hospital-console:latest -f dockerfile .
-        working-directory: hospital-management/hospital-console-project
+        working-directory: hospital-management/hospital-console
 
       - name: Push Docker Image for hospital-console
         run: 
