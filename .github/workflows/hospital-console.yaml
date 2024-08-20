@@ -20,8 +20,8 @@ jobs:
           password: ${{ secrets.DOCKER_REGISTRY_PAT }}
 
       - name: Build Docker Image
-        run: docker build -t ${{ secrets.DOCKER_REGISTRY_USER }}/hospital-console:latest -f dockerfile .
         working-directory: ./hospital-management/hospital-console
+        run: docker build -t ${{ secrets.DOCKER_REGISTRY_USER }}/hospital-console:latest -f Dockerfile .
         shell: bash
 
       - name: Push Docker Image for hospital-console
