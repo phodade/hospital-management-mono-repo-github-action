@@ -16,4 +16,7 @@ WORKDIR /scan
 
 # Command to run license_finder
 ENTRYPOINT ["license_finder"]
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd101f55a5c3d027bfd3c6ceb9174c527c6dd49f
